@@ -1,6 +1,5 @@
 <template>
   <div style="width: 100%">
-    <h1>修改</h1>
     <el-button @click="add" type="text" size="small" icon="CirclePlus">添加</el-button>
   </div>
   <el-table border :data="tableData.list" style="width: 100%">
